@@ -1,2 +1,2 @@
 # reciperec
-odinproj
+odinproject to make recipies or smn
