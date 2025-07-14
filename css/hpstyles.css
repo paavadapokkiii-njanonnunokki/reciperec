@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    background-image: url("../images/backmainpage.png");
+    background-size: 150vw;
+}
+.MHead{
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 9vw;
+    color: brown;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.options{
+    list-style-type: none;
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 3vw;
+    background-image: none;
+}
+a{
+    color: rgba(143, 145, 22, 0.849);
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.514);
+
+
+}

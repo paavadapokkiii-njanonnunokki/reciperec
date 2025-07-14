@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    background-color: rgb(255, 255, 142);
+    background-image: linear-gradient(brown, rgb(255, 255, 142), green);
+    font-size:3vw 2vh; 
+    font-family: Titillium Web;
+    text-align: left;
+}
+h1{
+    font-family: Bebas Neue;
+    text-align: center;
+    @media (max-width:768px) {
+        font-size: 7vw;
+    }
+    color: rgba(143, 145, 22, 0.849);
+}
+.masterlist{
+    @media (max-width:768px) {
+        font-size: 4vw;    
+    }
+    
+    color:black
+}
+.masterlist ul, .masterlist ol{
+    font-size: 80%;
+    color:rgb(26, 25, 25)
+}
