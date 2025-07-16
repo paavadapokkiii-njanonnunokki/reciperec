@@ -14,20 +14,57 @@ body{
     text-align: center;
     font-family: "Bebas Neue";
     font-size: 9vw;
-    color: brown;
+    color: rgb(66, 80, 62);
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .options{
     list-style-type: none;
-    text-align: center;
     font-family: "Titillium Web";
-    font-size: 3vw;
-    background-image: none;
+    text-align: center;
 }
 a{
-    color: rgba(143, 145, 22, 0.849);
+    color: rgba(0, 0, 0, 0.836);
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+a:hover{
+    filter: brightness(50%) ;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    text-shadow: 1px 1px 2px white, 1px -1px 2px white, 1px -1px 2px white, -1px -1px 2px white;
+}
+a:active{
+    filter: brightness(20%) ;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    text-shadow: 2px 2px 4px white, 2px -2px 4px white, 2px -2px 4px white, -2px -2px 4px white;
+}
+a, a:hover{   
+    display:inline-block;
     text-decoration: none;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.514);
-
-
+    box-sizing: border-box;
+    padding: 1em 2em;
+    border-radius: 2em;    
+    @media (min-width:769px) {
+        font-size: 3vw;
+    }
+    @media (max-width:768px) {
+        font-size: 5vw;
+    }
+}
+.ball{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0), 1px -1px 1px rgb(0, 0, 0), 1px -1px 1px rgb(0, 0, 0), -1px -1px 1px rgb(0, 0, 0);
+    color:goldenrod;
+    background-image: url(https://pics.craiyon.com/2023-11-21/34iR7E4ZSHOG4RWTbjuiVg.webp);
+    background-size: 20em;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid rgba(155, 5, 5, 0.712);
+}
+.rod{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/591/125/non_2x/many-sausages-are-on-cutting-board-in-cartoon-style-isolated-on-white-background-free-vector.jpg);
+    background-size: 21em;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 6px solid rgba(134, 38, 0, 0.712);
 }
