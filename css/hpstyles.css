@@ -13,7 +13,6 @@ body{
 .MHead{
     text-align: center;
     font-family: "Bebas Neue";
-    font-size: 9vw;
     color: rgb(66, 80, 62);
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
@@ -46,16 +45,7 @@ a, a:hover{
     padding: 1em 2em;
     border-radius: 2em;    
 }
-@media (min-width:769px) {
-    a, a:hover{
-        font-size: 3vw;
-    }
-}
-@media (max-width:768px) {
-    a, a:hover{
-        font-size: 5vw;
-    }
-}
+
 .ball{
     text-shadow: 1px 1px 1px rgb(0, 0, 0), 1px -1px 1px rgb(0, 0, 0), 1px -1px 1px rgb(0, 0, 0), -1px -1px 1px rgb(0, 0, 0);
     color:goldenrod;
@@ -71,4 +61,20 @@ a, a:hover{
     background-position: center;
     background-repeat: no-repeat;
     border: 6px solid rgba(134, 38, 0, 0.712);
+}
+@media (min-width:769px) {
+    .MHead{
+       font-size: 5rem;
+    }
+    a, a:hover{
+        font-size: 2rem;
+    }
+}
+@media (max-width:768px) {
+    .MHead{
+        font-size: 3.5rem;
+    }
+    a, a:hover{
+        font-size: 1rem;
+    }
 }
